@@ -1,0 +1,39 @@
+// Variables
+
+$deepBlue: #032f3e;
+$offWhite: #faf9fb;
+$sectionHeading: 24px;
+
+#main-nav{
+  background: $deepBlue;
+  ul{
+    width: 100%;
+  }
+  li{
+    float: left;
+    width: 14%;
+  }
+  a{
+    color: $offWhite;
+    text-decoration: none;
+    padding: 16px;
+    display: block;
+    text-align: center;
+  }
+} // end main-nav
+
+
+// Clearfix technique
+#main-nav ul:after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+section h1{
+  font-size: $sectionHeading;
+  color: $deepBlue;
+}
+
+
+
